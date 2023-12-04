@@ -8,6 +8,6 @@ int main(){
         printf("Input a[%d]: ", i);
         scanf("%d", &a[i]);
     }
-    printf("Amount of array:%lu ",sizeof(a) / sizeof(a[0]));
+    printf("Amount of aray:%lu ",sizeof(a) / sizeof(a[0]));
     return 0;
 }
